@@ -29,7 +29,7 @@ Usage
     // ...
 
 
-For advanced usage see `examples <https://github.com/insolite/leberg-air-conditioner/examples)>`_.
+For advanced usage see `examples <https://github.com/insolite/leberg-air-conditioner/examples>`_.
 
 Download
 ======================
