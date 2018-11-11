@@ -18,7 +18,7 @@ void build_code(unsigned short int* dst,
   // Insert initial constant values
   dst[0] = IR_INIT1;
   dst[1] = IR_INIT2;
-  for (int i = 2; i < IR_LENGTH; i += 2) {
+  for (int i = 2; i < IR_LENGTH - 1; i += 2) {
     dst[i] = IRS;
     dst[i + 1] = IR0;
   }

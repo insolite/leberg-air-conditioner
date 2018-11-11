@@ -109,13 +109,13 @@ void loop() {
       irsend.sendRaw(code, IR_LENGTH, 38);
 
       // Log sent IR code
-      for (int i = 0; i < 226; i+=2) {
+      for (int i = 0; i < IR_LENGTH - 1; i += 2) {
         Serial.print(code[i]);
         Serial.print(",");
         Serial.print(code[i + 1]);
         Serial.print(", ");
       }
-      Serial.print(code[226]);
+      Serial.print(code[IR_LENGTH - 1]);
       Serial.println("");
 
       // Delay to skip repeated code
