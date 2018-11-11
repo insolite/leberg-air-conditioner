@@ -1,0 +1,19 @@
+{
+  "name": "LebergAirConditioner",
+  "description": "IR code builder for Leberg air conditioner",
+  "keywords": "infrared, ir, remote, wireless",
+  "authors": {
+    "name": "Oleg Krasnikov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/insolite/leberg-air-conditioner"
+  },
+  "version": "0.1.0",
+  "frameworks": [
+    "arduino",
+    "energia",
+    "wiringpi"
+  ],
+  "platforms": "*"
+}

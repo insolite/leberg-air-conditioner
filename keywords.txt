@@ -1,0 +1,22 @@
+#######################################
+# Syntax Coloring Map For LebergAirConditioner
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+LebergAirConditioner	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+insert_value		KEYWORD2
+build_code		KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+TEMP_23C	LITERAL1
